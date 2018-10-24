@@ -10,3 +10,4 @@ dim = dim = 0.5*(N+1) *(N+2); # Number of possible configurations - works for th
 y0 = vec(zeros(1,dim)); # Initial condition vector
 y0[end-1] = 0.00000001;
 y0[end] = 0.99999999;
+j=0;
